@@ -4,6 +4,8 @@ const hotkeysArray = new Map([
     [ 'r' , 'https://www.reddit.com/' ],
     [ 'g' , 'https://www.github.com/' ],
     [ 'y' , 'https://www.youtube.com/'],
+    [ 'l' , 'https://lding.wcraz.com/' ],
+    ['n', 'https://pad.wcraz.com/']
 ]);
 
 console.log("Hotkeys Active");
