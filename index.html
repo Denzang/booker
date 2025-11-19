@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+                <div class="clock">
+                    <span id="hours"></span>
+                    <span id="minutes"></span>
+                    <!-- <span>IST</span>    -->
+                </div>
+                <h1>My Bookmarks</h1>
+                <div class="head-links">
+                    <a href="https://www.github.com/"><img src="./assets/icons/github-light.png" alt="github logo"></a>
+                    
+                </div>
+        </div>
+
+        <div class="bookmark-container">
+            <!-- bookmarks added manually -->
+             <div class="link-box">
+                <h2>Speed Dial</h2>
+                <div class="links">
+                    <a href="https://www.youtube.com/">YouTube</a>
+                    <a href="https://www.github.com/">GitHub</a>
+                    <a href="https://www.reddit.com/">Reddit</a>
+                    <a href="https://news.ycombinator.com/">Hacker News</a>
+                    <a href="https://lding.wcraz.com/">LinkDing</a>
+                </div>
+             </div>
+             <div class="link-box">
+                <h2>E-Mail</h2>
+                <div class="links">
+                    <a href="https://mail.google.com/mail/u/0/">GMail</a>
+                    <a href="https://app.tuta.com/login">Tuta Mail</a>
+                    <a href="https://mail.zoho.in/zm/#mail/folder/inbox">Zoho Mail</a>
+                    <a href="https://mailadmin.zoho.in/cpanel/home.do#dashboard">Zoho Admin Console</a>
+                    <a href="https://mail.proton.me/u/0/inbox">ProtonMail</a>
+                </div>
+             </div>
+             <div class="link-box">
+                <h2>Entertainment</h2>
+                <div class="links">
+                    <a href="https://www.odysee.com/" target="_blank">Odysee</a>
+                    <a href="http://192.168.1.90:8096/web/#/home.html" target="_blank">JellyFin Local</a>
+                    <a href="https://music.youtube.com/" target="_blank">YouTube Music</a>
+                    <a href="https://www.substack.com/" target="_blank">Substack</a>
+                </div>
+             </div>
+             <div class="link-box">
+                <h2>News</h2>
+                <div class="links">
+                    <a href="https://www.yahoo.com" target="_blank">Yahoo News</a>
+                    <a href="https://periscope.corsfix.com" target="_blank">Periscope</a>
+                    <a href="https://www.foxbusiness.com" target="_blank">Fox Business</a>
+                    <a href="https://www.onlinenewspapers.com/index.shtml" target="_blank">Online Newspapers</a>
+                    <a href="https://www.zaqs.org/news.php" target="_blank">ZAQS.ORG</a>
+                </div>
+             </div>
+             <div class="link-box">
+                <h2>Programming</h2>
+                <div class="links">
+                    <a href="https://stackoverflow.com/questions" target="_blank">Stack Overflow</a>
+                    <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Docs</a>
+                    <a href="https://distrowatch.com" target="_blank">DistroWatch</a>
+                    <a href="https://softpanorama.org/index.shtml" target="_blank">Softpanorama</a>
+                    <a href="https://ogist.wcraz.com/denzang/css">CSS Links</a>
+                </div>
+             </div>
+
+        </div>
+        <div class="footer">
+            <a class="weatherwidget-io" href="https://forecast7.com/en/17d3978d49/hyderabad/" data-label_1="Hyd" data-label_2="WEATHER" data-font="Ubuntu" data-theme="weather_one" >Hyd WEATHER</a>
+        </div>
+    </div>
+
+
+
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    </script>
+    <script src="./js/clock.js"></script>
+    <!-- <script src="./js/hotkeys.js"></script> -->
+    <script src="./js/hk2.js"></script>
+</body>
+</html>

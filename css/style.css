@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'RobotoMonoNerdFont';
+    src: url('../assets/fonts/RBMNF-Reg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Osaka';
+    src: url('../assets/fonts/osaka-mono.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+:root {
+    --primary-color: #a6e9a8;
+    --secondary-color: #cc3a3a;
+    --font-family: 'Osaka';
+    --jackman: #529F86;
+    --header-color: #8E8CC2;
+    --box: #55A6C3;
+}
+
+body {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    color: var(--jackman);
+    align-items: center;
+    border-color: rgb(2, 2, 2);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 12px;
+    background-color: var(--header-color);
+    margin: 1ch 1ch 0ch 1ch;
+    font-family: 'Osaka';
+}
+
+.head-links > a > img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.clock {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+
+/* Link Box */
+
+.bookmark-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-family: 'Osaka';
+    font-size: large;
+}
+
+.link-box, .links {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 10px 10px;
+
+}
+.link-box {
+    flex-direction: column;
+    gap: 1px;
+    margin-top: 50px;
+    align-items: center;
+    background-color: var(--box);
+    padding: 1ch 3ch;
+    justify-content: space-around;
+}
+
+.links {
+    flex-direction: column;
+    gap: 1em;
+    align-items: left;
+    justify-content: space-around;
+    
+}
+
+h2 {
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+a {
+    color:whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    
+}
