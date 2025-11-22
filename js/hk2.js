@@ -18,6 +18,9 @@ document.addEventListener('keydown', (event) => {
         return;
 }
 
+    if (activeElement.className === 'search') {
+        return;
+    }
     if (event.ctrlKey || event.altKey || event.metaKey) {
         return;
     }
